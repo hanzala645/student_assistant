@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069729006672",
+    "project_id": "ai-student-assistant-a733a",
+    "storage_bucket": "ai-student-assistant-a733a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069729006672:android:ab19c79990ddeaf285bd55",
+        "android_client_info": {
+          "package_name": "com.example.student_assistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwH4qJq1s0NohgQCLOVD--_7ZRVG8of4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
