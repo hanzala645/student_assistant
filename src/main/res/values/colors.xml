@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Vibrant & Professional Palette -->
+    <color name="primary">#6200EE</color>
+    <color name="primary_dark">#3700B3</color>
+    <color name="accent">#03DAC5</color>
+    <color name="colorPrimary">@color/primary</color> <!-- Alias for legacy references -->
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- UI Component Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="form_field_background">#F5F5F5</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_gray">#BDBDBD</color>
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Background Gradient -->
+    <color name="gradient_start">#EDE7F6</color>
+    <color name="gradient_end">#D1C4E9</color>
+</resources>

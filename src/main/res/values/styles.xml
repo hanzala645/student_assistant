@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text Styles -->
+    <style name="Text.Title" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/font_size_xlarge</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Title.Splash" parent="Text.Title">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Text.Subtitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Text.Body" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Card.Default" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_margin">@dimen/spacing_medium</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+    </style>
+
+    <!-- Home Screen Specific Styles -->
+    <style name="HomeCard" parent="Card.Default">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">@dimen/spacing_small</item>
+    </style>
+
+    <style name="Home.IconButton" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+        <item name="android:drawablePadding">@dimen/spacing_small</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="drawableTint">@color/primary</item>
+    </style>
+
+    <!-- Form Field Style -->
+    <style name="FormField.Outlined" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/form_field_background</item>
+    </style>
+
+</resources>
